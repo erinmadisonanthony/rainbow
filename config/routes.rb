@@ -1,5 +1,7 @@
 Rainbow::Application.routes.draw do
   root 'leprechauns#index'
+
+  resources :treasures
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
